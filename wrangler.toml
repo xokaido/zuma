@@ -1,6 +1,7 @@
 name = "hungry-snake"
 compatibility_date = "2025-12-24"
 main = "src/index.js"
+route = "zuma.menuhub.me/*"
 
 [site]
 bucket = "./public"
