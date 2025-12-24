@@ -1,0 +1,13 @@
+{
+  "name": "hungry-snake-zuma",
+  "version": "1.0.0",
+  "description": "The Hungry Snake - A Zuma-style web game with food emoji theme",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev public --port 8787",
+    "deploy": "wrangler pages deploy public --project-name hungry-snake"
+  },
+  "devDependencies": {
+    "wrangler": "^3.99.0"
+  }
+}
